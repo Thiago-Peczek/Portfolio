@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #bbbbbb;
+}
+
+header {
+    background-color: #101010;
+    width: 100%;
+    height: 90px;
+    display: block;
+}
+
+.inner_header {
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(133, 0, 0);
+}
+
+.logo_conteiner {
+    height: 100%;
+    display: table;
+    float: left;
+    margin: auto 20px;
+}
+
+.logo_conteiner h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "EB Garamond";
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.logo_conteiner h1 span {
+    font-weight: 600;
+}
+
+.navigation {
+    float: right;
+    width: 60%;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+}
+
+.navigation a li:hover {
+    font-size: 22px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-family: "EB Garamond";
+    font-size: 20px;
+}
+
+.conteudo {
+    margin: 50px 40px;
+    font-size: 32px;
+    height: 70%;
+}
+
+.conteudo h2 {
+    justify-content: center;
+    text-align:center;
+    margin: 20px;
+    font-family: "EB Garamond";
+}
+
+.conteudo p {
+    float: right;
+    margin-right: 200px;
+}
+
+.conteudo .moldura {
+    float: left;
+    vertical-align: center;
+}
+
+.conteudo img {
+    width: 300px;
+    height: 500px;
+    border: 5px solid #101010;
+    border-radius: 20px;
+    box-shadow: 10px 20px grey;
+}
+
+.sobre {
+    justify-content: center;
+    display: flex;
+    text-align: justify;
+    margin: 60px;
+    font-size: 36px;
+    height: 70%;
+}
+
+.competencias {
+    justify-content: center;
+    display: flex;
+    text-align: justify;
+    margin: 60px;
+    font-size: 36px;
+    height: 70%;
+}
+
+.competencias h2 {
+    font-family: "EB Garamond";
+}
+
+.footer{
+    justify-content: center;
+    top: 88%;
+    background-color: rgb(133, 0, 0);
+    width: 100%;
+    height: 12%;
+    padding: 5px 0 5px 0;
+    position: fixed;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    color:white;
+    vertical-align: middle;
+    display:grid;
+    margin: 20px;
+}
+
+.socialIcons a:hover{
+    font-size: 15px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.socialIcons img:hover {
+    background-color: rgb(133, 0, 0);
+    transition: 0.5s;
+}
+
+.footer img {
+    padding: 7px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+}
